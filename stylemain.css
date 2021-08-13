@@ -1,10 +1,11 @@
-#mybutton{
-    border: 5px solid #000;
-    margin: 0 0 1em 0;
-    padding: 5px;
-    width: 100%;
+#myButton{
+    border: 3px solid #333;
+    background-color: #999;
+    border-radius: 5px;
+    padding: 10px 2em;
+    font-weight: bold;
+    color: #fff;
 }
-
-h1{
-    font-size: 30px;
-}
+#myButton:hover {
+    background-color: #333;
+  }
