@@ -5,7 +5,7 @@
     <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width">
     <title>Digitalhealh</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="stylemain.css" rel="stylesheet" type="text/css" />
     <script src="script.js" defer></script>
     <title>Why you should trust digital healthcare</title>
     <!--adding author name and description-->
@@ -17,10 +17,13 @@
   </head>
   <body>
 
-    <h1>Email virtual doctors</h1>
-    <form>
-      <div class="buttons"><input type="submit" value="email"></div>
-    </form>
+    <h1>Click here to email doc</h1>
+    <button id="myButton" class="emaildoc_button" >Email virtual doctors</button>
 
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "mailto:nowhere@mozilla.org";
+        };
+    </script>
   </body>
 </html>
