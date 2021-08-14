@@ -1,5 +1,5 @@
 html{
-    background-color:#ADD8E6;
+    background-color:white;
 }
 *{
     font-family: 'Georama', sans-serif;
@@ -75,3 +75,13 @@ textarea {
     font-size: xx-large;
     margin-left: -49px;
 }
+
+.updates{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.bkgd{
+    background-color:#ADD8E6 ;
+}
+
