@@ -1,0 +1,78 @@
+html{
+    background-color:#ADD8E6;
+}
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  margin: 0 0 1em 0;
+  padding: 5px;
+  width: 500px;
+  height: 55px;
+}
+
+input[type="submit"] {
+    border: 3px solid #333;
+    background-color: #999;
+    border-radius: 5px;
+    padding: 10px 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+  }
+
+button,input,select,textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+}
+
+textarea {
+  overflow: auto;
+} 
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height:86px;
+    width: calc(1280px - 300px);
+    font-weight: bold;
+}
+
+.nav > li{
+    margin-left: 84px;
+}
+
+.home:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+.about_us:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+.contact_dr:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+.sign_up:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+ul {
+    font-family: 'Georama', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+}

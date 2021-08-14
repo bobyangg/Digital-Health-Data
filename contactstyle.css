@@ -1,0 +1,62 @@
+html{
+    background-color: #ADD8E6;
+}
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height:86px;
+    width: calc(1280px - 300px);
+    font-weight: bold;
+}
+
+.nav > li{
+    margin-left: 84px;
+}
+
+.home:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+.about_us:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+.contact_dr:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+.sign_up:hover{
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+
+ul {
+    font-family: 'Georama', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+}
+
+.myButton{
+    border:  2px solid black;
+}
+
+#myButton{
+    border: 3px solid #333;
+    background-color: #999;
+    border-radius: 5px;
+    padding: 10px 2em;
+    font-weight: bold;
+    color: #fff;
+}
+#myButton:hover {
+    background-color: #333;
+  }
+
