@@ -1,6 +1,16 @@
 html{
     background-color: #ADD8E6;
 }
+*{
+    font-family: 'Georama', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+}
+
 .nav{
     display:flex;
     justify-content: flex-end;
@@ -14,31 +24,25 @@ html{
 }
 
 .home:hover{
-    background-color:rgba(0,0,0,1);
-    color: white;
+    font-size: xx-large;
 }
 
 .about_us:hover{
-    background-color:rgba(0,0,0,1);
-    color: white;
+    font-size: xx-large;
+    margin-left: -59.5px;
 }
 
 .contact_dr:hover{
-    background-color:rgba(0,0,0,1);
-    color: white;
+    font-size: xx-large;
+    margin-left: -73px;
 }
 
 .sign_up:hover{
-    background-color:rgba(0,0,0,1);
-    color: white;
+    font-size: xx-large;
+    margin-left: -49px;
 }
 
-ul {
-    font-family: 'Georama', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    border-collapse: collapse;
-    margin:0px;
-    padding:0px;
-    color:#000;
+p {
+    font-size: 20px;
+    font-family:'Georama', sans-serif;
 }
