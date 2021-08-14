@@ -99,26 +99,35 @@ h2 {
 }
 
 .nav > li{
-    margin-left: 84px;
+    margin-left: auto;
 }
 
 .home:hover{
     font-size: xx-large;
 }
 
+.articles:hover{
+    font-size: xx-large;
+    margin-left:auto;
+}
+.doctors_in_ottawa:hover{
+    font-size: xx-large;
+    margin-left:auto;
+}
+
 .about_us:hover{
     font-size: xx-large;
-    margin-left: -59.5px;
+    margin-left: auto;
 }
 
 .contact_dr:hover{
     font-size: xx-large;
-    margin-left: -73px;
+    margin-left:auto;
 }
 
 .sign_up:hover{
     font-size: xx-large;
-    margin-left: -49px;
+    margin-left: auto;
 }
 
 .intro_text{
