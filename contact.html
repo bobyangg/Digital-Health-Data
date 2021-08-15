@@ -49,15 +49,56 @@
     <hr>
 
     <email>
-        <h1>Click here to email doc</h1>
-        <button id="myButton" class="emaildoc_button" >Email virtual doctors</button>
-    
-        <script type="text/javascript">
-            document.getElementById("myButton").onclick = function () {
-                location.href = "mailto:nowhere@mozilla.org";
-            };
-        </script>
-      </email>
+      <h1>Meet digital healthcare researchers and specialists!</h1>
+      <p>Here is a list of those you can contact if you have any questions. </p>
+      <br>
+
+      <div id = "list-of-doctors" style="margin-left: 50px;">
+
+      <div class="Doctors">
+        <img src="images/doctor1.jpeg" alt="Dr. Rafael Grossman" width = "500">
+        <br> 
+        <h2>Dr. Rafael Grossman</h2>
+      <button style="margin-bottom: auto;" id="myButton" class="emaildoc_button" >Email Doctor</button>
+  
+      <script type="text/javascript">
+          document.getElementById("myButton").onclick = function () {
+              location.href = "mailto:rafael@rafaelgrossman.com";
+          };
+      </script>
+    </div>
+
+    <div class="Doctors">
+      <img src="images/doctor2.jpeg" alt="Dr. Daniel Kraft" width = "500">
+      <br> 
+        <h2>Dr. Daniel Kraft</h2>
+    <button style="margin-bottom:auto" id="myButton" class="emaildoc_button" >Email Doctor</button>
+
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "mailto:Daniel.Kraft@gmail.com";
+        };
+    </script>
+  </div>
+
+  <div class="Doctors">
+    <img src="images/Doctor 3.jpeg" alt="Dr. Louise Schaper" width = "500">
+    <br> 
+        <h2>Dr. Louise Schaper</h2>
+  <button style="margin-bottom:auto" id="myButton" class="emaildoc_button" >Email Doctor</button>
+
+  <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+          location.href = "mailto:execoffice@digitalhealth.org.au";
+      };
+  </script>
+</div>
+
+
+    </div>
+      
+    </email>
+
   
   </body>
   <footer>

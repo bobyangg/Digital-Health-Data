@@ -11,6 +11,17 @@ html{
     color:#000;
 }
 
+h1{
+    margin-left: 50px;
+}
+h2{
+    color:purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin-left: 50px;
+}
+
 .nav{
     display:flex;
     justify-content: flex-end;
@@ -31,6 +42,8 @@ html{
     font-size: xx-large;
     margin-left:auto;
 }
+
+
 .about_us:hover{
     font-size: xx-large;
     margin-left: auto;
@@ -63,5 +76,9 @@ html{
     background-color: #333;
   }
 
-
+  .Doctors {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
 
